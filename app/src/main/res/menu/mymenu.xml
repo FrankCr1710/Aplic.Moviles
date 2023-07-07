@@ -9,10 +9,19 @@
         app:showAsAction="always"
         />
 
+
     <item
-        android:id="@+id/opcion2"
-        android:title="Salir"
+        android:id="@+id/opcion3"
+        android:title="Reservar"
         app:showAsAction="never"
         />
+    <item
+        android:id="@+id/opcion2"
+        android:title="salir"
+        app:showAsAction="never"
+        />
+
+
+
 
 </menu>

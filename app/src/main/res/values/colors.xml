@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="coloruno">#0FA8A8</color>
+    <color name="colordos">#2C7BF1</color>
+    <color name="colortres">#6200EE</color>
+    <color name="bibliiii_background">#6200EE</color>
+    <color name="colorred">#ED0707</color>
 </resources>
