@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     Button  button;
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         et1 = findViewById(R.id.et1);
         et2 = findViewById(R.id.et2);
         button = findViewById(R.id.button);
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
         Toolbar tarea4 = findViewById(R.id.myToolbar);
         setSupportActionBar(tarea4);

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -54,7 +55,9 @@ public class MainActivity2 extends AppCompatActivity {
         }
 
         if (id == R.id.opcion3){
-            Toast.makeText(getApplicationContext(), "Icono 3", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(getApplicationContext(), MainActivity3.class);
+            startActivity(i);
+            return true;
         }
 
         if (id == R.id.opcion2){
