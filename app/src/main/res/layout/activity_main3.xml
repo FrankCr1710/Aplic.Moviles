@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity3"
-    android:background="@color/colordos">
+
+    android:background="@mipmap/lllssss_round">
 
     <include
         android:id="@+id/myToolbar"
@@ -14,13 +15,14 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/edt_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="text"
         android:text="Titulo:"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,9 +36,10 @@
         android:ems="10"
         android:inputType="text"
         android:text="Tema:"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/edt_titulo" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -46,6 +49,7 @@
         android:ems="10"
         android:inputType="text"
         android:text="Autor:"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
@@ -57,6 +61,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="date"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,6 +73,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="96dp"
         android:text="RESERVACIÓN"
+        android:textSize="20dp"
+        android:textColor="@color/black"
         android:typeface="serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -82,21 +89,38 @@
         android:ems="10"
         android:inputType="text"
         android:text="Código:"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/reservar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Reservar"
+        android:onClick="Agregar"
         android:textColor="@color/white"
         android:backgroundTint="@color/colorred"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <TextView
+        android:id="@+id/tv_mostrar"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:typeface="monospace"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

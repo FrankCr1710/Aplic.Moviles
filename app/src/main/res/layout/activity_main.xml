@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colordos"
+
+    android:background="@mipmap/lllssss_round"
     tools:context=".MainActivity">
 
     <EditText
@@ -14,6 +15,7 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Nombre:"
+        android:textColor="@color/black"
         android:inputType="text"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +33,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="300dp"
-        android:text="ingresar"
+        android:text="Ingresar"
+        android:typeface="serif"
+        android:backgroundTint="#EB3921"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -42,8 +46,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
-        android:text="INICIAR SESION"
-        android:textSize="20dp"
+        android:text="INICIAR SESIÓN"
+        android:textSize="30dp"
+        android:textColor="@color/black"
         android:typeface="serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -56,6 +61,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Código:"
+        android:textColor="@color/black"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,6 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="password"
+            android:textColor="@color/black"
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
 
