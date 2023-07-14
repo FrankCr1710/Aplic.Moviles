@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4"
 
-    android:background="@mipmap/lllssss_round">
+    android:background="@color/colorcuatro">
 
     <include
         android:id="@+id/myToolbar"

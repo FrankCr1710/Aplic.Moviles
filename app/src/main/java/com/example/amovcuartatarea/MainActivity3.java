@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity3 extends AppCompatActivity {
 
@@ -27,6 +28,8 @@ public class MainActivity3 extends AppCompatActivity {
         String muestra = "El libro del";
         String resultado = muestra+" "+nombre+" fue reservado, gracias!";
         tv_mostrar.append(resultado);
+
+        Toast.makeText(this, "RESERVA EXITOSA", Toast.LENGTH_SHORT).show();
     }
 
 

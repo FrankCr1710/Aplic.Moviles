@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2"
 
-    android:background="@mipmap/lllssss_round">
+    android:background="@color/colorcuatro">
 
     <TextView
         android:id="@+id/tvResultado"
